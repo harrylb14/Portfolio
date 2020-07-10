@@ -1,4 +1,4 @@
-require './secret_diary.rb'
+require 'secret_diary.rb'
 describe SecretDiary do 
 
   describe "add_entry" do 
