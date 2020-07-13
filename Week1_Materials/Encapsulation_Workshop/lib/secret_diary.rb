@@ -1,14 +1,11 @@
-class SecretDiary
+require './lib/lock_diary.rb'
+class Diary
+  attr_accessor :locked, :diary
   def initialize
     @diary = []
     @locked = true
   end
-  def unlock
-    @locked = false
-  end
-  def lock
-    @locked = true
-  end
+
   def add_entry(entry)
     fail 'The diary is locked' if @locked
     @diary << entry
