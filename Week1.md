@@ -1,4 +1,4 @@
-#Week 1
+# Week 1
 
 ## Weekly Goals
 1. Test-drive a simple program using objects and methods
@@ -14,7 +14,7 @@
 - Learned various rspec techniques, including raising errors, use of mocking doubles and how to structure rspec code. 
 
 #### How I Achieved This Goal 
-- Competed the Makers Academy Airport Challenge. The purpose of this was to build a program from scratch, using all the techniques learned this week. This implemented TDD, debugging and OOP principles, and also very much helped to strengthen my understanding of rspec principles such as doubles, mocking, and stubs. Discovered the use of 'let' in rspec for repeated mocking. The program and tests can be found [here](https://github.com/harrylb14/airport_challenge)
+- Competed the Makers Academy Airport Challenge. The purpose of this was to build a program from scratch, using all the techniques learned this week. This implemented TDD, debugging and OOP principles, and also very much helped to strengthen my understanding of rspec principles such as doubles, mocking, and stubs. Discovered the use of 'let' in rspec for repeated mocking. The program and tests can be found [here](https://github.com/harrylb14/airport_challenge).
 - Attended a Makers Academy workshop on TDD, which included developing tests for a simple library lookup program. The program and tests can be found [here](https://github.com/harrylb14/Portfolio/tree/master/Week1_Materials/TDD_Workshop).
 - Completed a practical on encapsulation, and a pair programming challenge both detailed below. These also involved using TDD and helped to solidify my understanding of its implementation. 
 
