@@ -1,22 +1,20 @@
-# Week 1
+# Week 2
 
 ## Weekly Goals
-1. Test-drive a simple program using objects and methods
-2. Pair using the driver-navigator style
-3. Follow an effective debugging process
-4. Describe some basic OO principles like encapsulation, SRP 
+1. Learn how to break a class into multiple, while maintaining test coverage.
+2. Unit test classes in isolation using mocking.
+3. Explain some basic OO principles and tie them into high level concerns.
+4. Review another person's code and give them meaningful feedback. 
 
-<h1 align="center">1 - Test-Driven Developement</h1>
+<h1 align="center">1 - Splitting Classes </h1>
 
 #### Notes
-- Red -> Green -> Refactor. The core principal of Test-Driven developement. 
-- Learned to allow tests based on user stories to drive the creation of code. 
-- Learned various rspec techniques, including raising errors, use of mocking doubles and how to structure rspec code. 
+- Related to encapsulation learning goals from last week.  
+- Splitting classes into multiple, each with a single responsibility, is often beneficial as it allows these classes to be tested independently, and their functionality reused seperately from each other.  
 
 #### How I Achieved This Goal 
-- Competed the Makers Academy Airport Challenge. The purpose of this was to build a program from scratch, using all the techniques learned this week. This implemented TDD, debugging and OOP principles, and also very much helped to strengthen my understanding of rspec principles such as doubles, mocking, and stubs. Discovered the use of 'let' in rspec for repeated mocking. The program and tests can be found [here](https://github.com/harrylb14/airport_challenge).
-- Attended a Makers Academy workshop on TDD, which included developing tests for a simple library lookup program. The program and tests can be found [here](https://github.com/harrylb14/Portfolio/tree/master/Week1_Materials/TDD_Workshop).
-- Completed a practical on encapsulation, and a pair programming challenge both detailed below. These also involved using TDD and helped to solidify my understanding of its implementation. 
+- Completed the Airport Challenge, which involved using multiple classes with differing responsibilities, and modelling how these classes would interact. This also including using mocking and method stubs to test each class individually, without dependence on another. This is useful for future editing of code, and debugging. The finished challenge can be found [here](https://github.com/harrylb14/airport_challenge).
+- Completed the Week 2 Oystercard Challenge. This developed the skills used in this area by expanding on these techniques and learning when is best to split a class into two and when it may not be necessary. It involved starting with one, multi-functional class and refactoring it according to class functionality. This challenge was great for learning how classes can interact, and how to continue testing them seperately. The Oystercard challenge can be found [here](https://github.com/harrylb14/Oystercard_Challenge).
 
 <h1 align="center">2 - Pair Using The Driver-Navigator Style </h1>
 
