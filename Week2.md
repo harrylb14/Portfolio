@@ -16,48 +16,28 @@
 - Completed the Airport Challenge, which involved using multiple classes with differing responsibilities, and modelling how these classes would interact. This also including using mocking and method stubs to test each class individually, without dependence on another. This is useful for future editing of code, and debugging. The finished challenge can be found [here](https://github.com/harrylb14/airport_challenge).
 - Completed the Week 2 Oystercard Challenge. This developed the skills used in this area by expanding on these techniques and learning when is best to split a class into two and when it may not be necessary. It involved starting with one, multi-functional class and refactoring it according to class functionality. This challenge was great for learning how classes can interact, and how to continue testing them seperately. The Oystercard challenge can be found [here](https://github.com/harrylb14/Oystercard_Challenge).
 
-<h1 align="center">2 - Pair Using The Driver-Navigator Style </h1>
+<h1 align="center">2 - Unit test classes in isolation using mocking </h1>
 
 #### Notes
-- Pair Programming leads to better code quality and allows information to be shared between two developers, encouraging the implementation of techniques that may not be otherwise known. Teaching others techniques is a great learning method also, and helps to solidify understanding.
+- While testing functionality of a class in rspec, I now recognize that creating an instance of a different class is undesirable. This is because having bugs affect tests in different classes, even when the tests are behaving as they should, can make it very hard to debug and edit code in the future. 
+- Mocking is the process of creating a 'fake' instance of a class in a different classes spec file, and dictating which methods this mock can receive and associated responses. This allows us to test the class we're interested in, without worrying about the functionality of a different class. 
 
 #### How I Achieved This Goal 
-- Completed the Makers' Week 1 Weekly Pair Programming Challenge. This included implementation of a variety of tecniques learned throughout the week including TDD, Encapsulation, Debugging and rspec techniques, as well as solifying my undetstanding of classes and instance variables.
-- The 'Boris Bikes' Challenge can be found [here](https://github.com/harrylb14/Boris_Bikes_Challenge)
+- Completed a challenge on testing relationships between two simple classes in a diary program, using mocks so these classes could be tested independently. This challenge can be found [here](https://github.com/harrylb14/Portfolio/tree/master/Week2_Materials/Testing_Class_Relationships).
+- Practised use of mocking throughout the previous Boris Bike and Airport Challenges also. 
+- Everything learned thus far was tested in the Takeaway challenge, which involved building a takeaway program frmo scratch. Topics tested included class seperation, mocking and use of method stubs, dependency injection, and learning the use of Twilio API for the purpose of confirmation texts. The challenge and my solution can be found [here](https://github.com/harrylb14/takeaway-challenge).
 
-<h1 align="center">3 - Follow An Effective Debugging Process </h1>
+<h1 align="center">3 - Explain some basic OO principles and tie them into high level concerns. </h1>
 
 #### Notes 
-- Debugging is the process of using error messages to identify bugs in code. It involves identifying the piece of code that is causing an error, and rewriting it so the error is no longer thrown. 
-- Using error messages as a guide and 'following the code' allows us to identify sections of code that may be preventing our desired function. Gaining visibility on pieces of code using 'p' can often help with this.
+- This week's OO focus was mainly on encapsulation, mocking and dependency injection. 
+- Dependency injection allows for more isolated classes, but with the ability to 'inject' dependency on another class into a method, as opposed to explicitly instantiating a new object within another class. This also leads to greater ease of future editing.
 
 #### How I Achieved This Goal 
-- Attended a Makers Academy workshop on debugging, which included finding a bug in a real piece of software, Geotracker. This involved following error messages into a gem file itself, and identifying a bug in a program's source code. 
+- A short Dependecy Injection practical can be found [here](https://github.com/harrylb14/Portfolio/tree/master/Week2_Materials/Dependency_Injection_Workshop).
+- These OO principles were tested and practised throughout the previous challenges mentioned this week. 
 
-<h1 align="center">4 - Describe Some Basic OO Principles Like Encapsulation, SRP</h1>
+<h1 align="center">4 - Review another person's code and give them meaningful feedback. </h1>
 
 #### Notes
-- Encapsulation is the term for ensuring an object's internal state is not accessible to other subjects directly, but rather is manipulatef by the object's public interface. This example helps to demonstrate that:
-
-``` 
-Class Name (first_name, last_name)
-  @first_name = first_name
-  @last_name = last_name
-  
-  def name 
-    name = "#{@first_name} #{@last_name}"
-  end
-end
-
-user1 = Name.new("bob", "jones")
-user.name
-#returns "bob jones"
-```
-
-In this example, the rules for constructing the name are _encapsulated_ in the name function. 
-
-#### How I Achieved This Goal 
-- Completed a practical on encapsulation, involving the creation of a lockable diary. During this challenge I used TDD to create a functional program, which I then refactored in order to increase cohesion by splitting one class into multiple, by adhering to the Single Responsibility Principle. 
-
-- The completed task can be found [here](https://github.com/harrylb14/Portfolio/tree/master/Week1_Materials/Encapsulation_Workshop). 
-
+- After particular challenges, we reviewed other people's code, observing their solution to the challenge and offering feedback on the work they had done. Since software developement is very rarely a solo venture, this was helpful for practising feedback techniques, as well as allowing us to see other routes to complete an objective that we may not have considered.
