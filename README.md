@@ -1,20 +1,26 @@
-## Harry Lingard-Bright - Portfolio
+# Testing Relationships Between Classes
 
-This repo documents my learning journey at Makers Academy.
+## Quickstart
 
-### My Goals
-#### 1. I can make anything
-- I can TDD anything
-- I can program fluently
-- I can debug anything
-- I can model anything
-- I can refactor anything
-- I have a methodical approach to solving problems
-#### 2. I'm equipped for long term growth
-- I manage my own wellbeing
-- I can learn anything by myself
-#### 3. I help my teams succeed
-- I use an agile product development process
-- I write code that is easy to change
-- I can justify the way I work
-- I grow collaboratively
+Clone, then:
+
+```bash
+$ bundle install
+$ rspec
+# You should see four pending tests
+```
+
+## Instructions
+
+Fill in the four tests in `spec/secret_diary_spec.rb`.
+
+Don't:
+
+* Change `secret_diary.rb`
+* Add any new files
+* Create any new classes
+
+Do:
+
+* Use `double` — [Reference docs here](https://relishapp.com/rspec/rspec-mocks/v/3-5/docs/basics/test-doubles)
+* Use `expect(...).to receive(...)` [Reference docs here](https://relishapp.com/rspec/rspec-mocks/v/3-5/docs/basics/expecting-messages)
