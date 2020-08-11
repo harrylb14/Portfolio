@@ -1,4 +1,4 @@
-# Week 2
+# Week 3
 
 ## Weekly Goals
 1. Learn how to use Capybara and Sinatra to build and locally host a simple web app.
